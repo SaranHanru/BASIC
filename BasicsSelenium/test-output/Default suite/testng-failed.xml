@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="dataDrivenTestScripts.ExcelNewDDTScript">
+      <class name="sampleTests.ShadowDomInChromeDownloads">
         <methods>
-          <include name="login"/>
-          <include name="launchTest"/>
+          <include name="shadowDomTest"/>
         </methods>
-      </class> <!-- dataDrivenTestScripts.ExcelNewDDTScript -->
+      </class> <!-- sampleTests.ShadowDomInChromeDownloads -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

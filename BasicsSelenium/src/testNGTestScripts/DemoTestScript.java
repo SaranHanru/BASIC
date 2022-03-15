@@ -5,7 +5,8 @@ import org.testng.annotations.Test;
 public class DemoTestScript {
 
 	@Test
-	public void firstTestCase() {
+	public void firstTestCase() throws InterruptedException {
+		Thread.sleep(0);
 		System.out.println("This is my first test case");
 	}
 	

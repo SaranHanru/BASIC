@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-01-18T16:57:22 IST" name="Default suite" finished-at="2022-01-18T16:58:25 IST" duration-ms="62934">
+  <suite started-at="2022-02-27T17:00:04 IST" name="Default suite" finished-at="2022-02-27T17:00:18 IST" duration-ms="14049">
     <groups>
     </groups>
-    <test started-at="2022-01-18T16:57:22 IST" name="Default test" finished-at="2022-01-18T16:58:25 IST" duration-ms="62934">
-      <class name="pom.LoginPageTestScript">
-        <test-method signature="login()[pri:0, instance:pom.LoginPageTestScript@769e7ee8]" started-at="2022-01-18T16:57:22 IST" name="login" finished-at="2022-01-18T16:58:25 IST" duration-ms="62710" status="PASS">
+    <test started-at="2022-02-27T17:00:04 IST" name="Default test" finished-at="2022-02-27T17:00:18 IST" duration-ms="14049">
+      <class name="sampleTests.ShadowDomInChromeDownloads">
+        <test-method signature="shadowDomTest()[pri:0, instance:sampleTests.ShadowDomInChromeDownloads@769e7ee8]" started-at="2022-02-27T17:00:04 IST" name="shadowDomTest" finished-at="2022-02-27T17:00:18 IST" duration-ms="13975" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-      </class> <!-- pom.LoginPageTestScript -->
+        </test-method> <!-- shadowDomTest -->
+      </class> <!-- sampleTests.ShadowDomInChromeDownloads -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
